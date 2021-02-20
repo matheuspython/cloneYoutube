@@ -1,0 +1,77 @@
+header#header{
+  width: 100%;
+  height: 56px;
+}
+header#header img{
+  max-width: 100px;
+}
+header#header ul{
+  list-style: none;
+}
+header#header .container{
+  height: 100%;
+  width: 98%;
+  margin: 0 auto;
+  padding: 0 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul#menu-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+ cursor: pointer;
+}
+ul#menu-logo li:nth-of-type(1) img{
+  width: 25px;
+  height: 50px;
+}
+header#header .container input{
+  width: 50%;
+  height: 25px;
+  max-width: 500px;
+  padding-left: 5px;
+}
+ul#informacoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+}
+ul#informacoes img{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+/*inicio media queries*/
+@media screen and (max-width: 768px){
+  header#header .container input{
+    width: 50%;
+    height: 25px;
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 554px){
+  header#header .container input{
+    width: 50%;
+    height: 25px;
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 476px){
+  
+ul#menu-logo{
+  width: 130px;
+}
+ul#informacoes{
+ width: 140px;
+}
+}
+@media screen and (max-width: 425px){
+  header#header .container input{
+    display: none;
+  }
+}
