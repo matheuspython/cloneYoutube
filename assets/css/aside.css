@@ -1,0 +1,52 @@
+aside#aside {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 0px;
+  height: 100vh;
+  overflow-y:auto;
+  padding-bottom: 50px;
+  transition: .4s;
+}
+aside#aside img{
+  width: 30px;
+  margin-right: 10px;
+} 
+aside#aside ul{
+  width: 100%;
+  border-bottom: 1px solid rgb(211, 209, 209);
+}
+aside#aside li{
+  height: 40px;
+  width: 100%;
+  margin: 3px auto;
+}
+aside#aside ul li a{
+  font-weight: 500;
+  color:black;
+  padding: 0 10%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: .4s;
+}
+aside#aside ul li a:hover{
+  background-color: rgb(240, 240, 240);
+}
+aside#aside h3{
+  padding: 9px 10% 2px 10%;
+  font-size: 12px;
+  color: gray;
+  text-transform: uppercase;
+}
+ul#inscri img{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
