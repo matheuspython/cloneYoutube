@@ -1,8 +1,8 @@
 aside#aside {
   position: fixed;
   top: 56px;
-  left: 0;
-  width: 0px;
+  left: 0px;
+  width: 240px;
   height: 100vh;
   overflow-y:auto;
   padding-bottom: 50px;
@@ -49,4 +49,57 @@ ul#inscri img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media screen and (max-width: 768px){
+  aside#aside{
+    width: 70px;
+  }
+  aside#aside ul{
+    border-bottom: 0;
+  }
+  aside#aside ul li a{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  ul#infosUser{
+    display: none;
+  }
+  aside#aside h3{
+    display: none;
+  }
+  ul#inscri{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px){
+  aside#aside{
+    display: none;
+  }
+}@media screen and (max-width: 425px){
+  aside#aside{
+    padding-bottom: 52px;
+    border-top: 1px solid gray;
+    overflow-y: initial;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    top: unset;
+    bottom: 0;
+  }
+  aside#aside ul{
+    padding-left: 50px;
+    margin: 0 auto;
+  }
+  aside#aside ul li{
+    display: inline-block;
+    width: 25%;
+    list-style: none;
+  
+  }
+  aside#aside ul#infosYtb li>a{
+ 
+    color: black;
+    flex-direction: column;
+  }
 }

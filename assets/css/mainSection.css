@@ -1,0 +1,17 @@
+
+main#main{
+  margin-left: 240px;
+  width: 100%;
+  background-color: red;
+  height: 70px;
+}
+@media screen and (max-width: 768px){
+  main#main{
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 600px){
+ main#main{
+  margin-left: 0;
+ }
+}
