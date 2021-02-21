@@ -2,7 +2,7 @@
 main#main{
   margin-left: 240px;
   width: calc(100% - 240px);
-  background-color: red;
+  background-color: rgb(245, 243, 243);
   height: 70px;
 }
 @media screen and (max-width: 768px){
